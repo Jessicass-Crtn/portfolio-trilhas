@@ -244,3 +244,219 @@ cursor: pointer;
     background-color: #8a7061;
     color: white;
 }
+
+.certificados {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.certificados h1 {
+    font-size: 36px;
+    color: #5c4033;
+    text-align: center;
+}
+
+.certificados p {
+    color: #382d2b;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.lista-certificados {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 250px;
+}
+
+.cartao-certificado {
+    display: block;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff8ee;
+    border: 1px solid #8a7061;
+    border-radius: 20px;
+    color: #382d2b;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cartao-certificado h2 {
+    color: #5c4033;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.cartao-certificado:hover {
+    background-color: #f5e2ce;
+    transform: translateY(-3px);
+}
+
+.botao-voltar {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 320px;
+    padding: 12px 20px;
+    background-color: #fff8ee;
+    border: 1px solid #8a7061;
+    border-radius: 8px;
+    color: #382d2b;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.botao-voltar:hover {
+    background-color: #8a7061;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.rodape-social {
+    text-align: center;
+    padding: 20px;
+}
+
+.rodape-social p {
+    color: #8a7061;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.redes-sociais a {
+    display: inline-flex;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.redes-sociais img {
+    width: 28px;
+    height: 28px;
+    opacity: 0.75;
+}
+
+.redes-sociais a:hover {
+    transform: translateY(-3px);
+}
+
+.decoracoes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+}
+
+.decoracao {
+    position: absolute;
+    color: #8a7061;
+    font-size: 28px;
+}
+
+/* Cantinho superior esquerdo */
+.d1 {
+    top: 8%;
+    left: 8%;
+}
+
+/* Lateral esquerda */
+.d2 {
+    top: 35%;
+    left: 12%;
+}
+
+/* Cantinho superior direito */
+.d3 {
+    top: 10%;
+    right: 8%;
+}
+
+/* Lateral direita */
+.d4 {
+    top: 40%;
+    right: 12%;
+}
+
+/* Cantinho inferior esquerdo */
+.d5 {
+    bottom: 10%;
+    left: 8%;
+}
+
+/* Cantinho inferior direito */
+.d6 {
+    bottom: 12%;
+    right: 8%;
+}
+
+/* Estrelinha pequena no alto */
+.d7 {
+    top: 20%;
+    left: 20%;
+    font-size: 17px;
+    color: #b38b76;
+}
+
+/* Coração na lateral direita */
+.d8 {
+    top: 60%;
+    right: 7%;
+    font-size: 23px;
+}
+
+/* Florzinha na lateral esquerda */
+.d9 {
+    top: 65%;
+    left: 6%;
+    font-size: 20px;
+    color: #b38b76;
+}
+
+/* Estrela no alto à direita */
+.d10 {
+    top: 23%;
+    right: 19%;
+    font-size: 19px;
+}
+
+/* Brilhinho perto do rodapé */
+.d11 {
+    bottom: 4%;
+    left: 25%;
+    font-size: 18px;
+    color: #b38b76;
+}
+
+/* Florzinha no canto inferior direito */
+.d12 {
+    bottom: 5%;
+    right: 24%;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+
+    .lista-certificados {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .botao-voltar {
+        margin-left: 0;
+    }
+
+    .certificados {
+        padding: 20px;
+    }
+
+}
