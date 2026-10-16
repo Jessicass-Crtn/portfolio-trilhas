@@ -181,7 +181,7 @@ cursor: pointer;
     margin-bottom: 30px;
 }
 
-.projetos a {
+.projetos> a {
 display: inline-block;
 margin-top: 30px;
 padding: 12px 20px;
@@ -193,8 +193,54 @@ text-decoration: none;
 transition: 0.3s;
 }
 
-.projetos a:hover {
+.projetos> a:hover {
 background-color: #8a7061;
 color: #ffffff;
 cursor: pointer;
+}
+
+.cartao-projeto {
+    display: block;
+    color: #382d2b;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cartao-projeto:hover {
+    background-color: #f5e2ce;
+    transform: translateY(-3px)
+}
+
+.pagina-projeto {
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.pagina-projeto h1 {
+    color: #5c4033;
+    font-size: 32px;
+}
+
+.pagina-projeto p {
+    color: #8a7061;
+    line-height: 1.8;
+}
+
+.pagina-projeto a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 20px;
+    background-color: #fff8ee;
+    border: 1px solid #8a7061;
+    border-radius: 8px;
+    color: #382d2b;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.pagina-projeto a:hover {
+    background-color: #8a7061;
+    color: white;
 }
