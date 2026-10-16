@@ -180,3 +180,21 @@ cursor: pointer;
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.projetos a {
+display: inline-block;
+margin-top: 30px;
+padding: 12px 20px;
+background-color: #fff8ee;
+border: 1px solid #8a7061;
+border-radius: 8px;
+color: #382d2b;
+text-decoration: none;
+transition: 0.3s;
+}
+
+.projetos a:hover {
+background-color: #8a7061;
+color: #ffffff;
+cursor: pointer;
+}
