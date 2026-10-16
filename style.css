@@ -69,7 +69,7 @@ body {
 
 .perfil h1 {
     font-size: 32px;
-    color: red;
+    color: rgb(230, 152, 36);
     margin-bottom: 8px;
 }
 
@@ -78,4 +78,105 @@ body {
     color: #5e2607;
     margin-top: 0;
     line-height: 1.5; 
+}
+
+.sobre {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.sobre h1{
+    font-size: 36px;
+    color: #5c4033;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sobre h2{
+    front-size: 24px;
+    color: #8a7061;
+    margin-top: 30px;
+}
+
+.sobre p {
+    font-size: 16px;
+    color: #382d2b;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.sobre a {
+display: inline-block;
+margin-top: 30px;
+padding: 12px 20px;
+background-color: #fff8ee;
+border: 1px solid #8a7061;
+border-radius: 8px;
+color: #382d2b;
+text-decoration: none;
+transition: 0.3s;
+}
+
+.sobre a:hover {
+background-color: #8a7061;
+color: #ffffff;
+cursor: pointer;
+}
+
+.despedida {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 1px dashed #8a7061;
+    text-align: center;
+}
+
+.despedida p {
+    text-align: center;
+    font-size: 14px;
+    color: #8a7061;
+    margin: 4px 0;
+}
+
+.despedida .assinatura {
+    font-size: 10px;
+}
+
+.cartao-projeto {
+    background-color: #fff8ee;
+    border: 1px solid #8a7061;
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+}
+
+.cartao-projeto h2 {
+    color: #5c4033;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.projetos {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.projetos h1{
+    font-size: 36px;
+    color: #5c4033;
+    text-align: center;
+}
+
+.projetos p {
+    color: #382d2b;
+    line-height: 1.8;
+}
+
+.lista-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
